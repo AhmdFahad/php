@@ -1,0 +1,8 @@
+To run that Procet
+
+to build image 
+`docker build -t my-apache2 . `
+
+and to run it 
+
+`docker run -dit --name my-running-app -p 8080:80 my-Project`
